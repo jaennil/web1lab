@@ -1,55 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 * {
-	all: unset;
-	font-family: Roboto;
+  all: unset;
+  font-family: Roboto;
 }
 
 header {
-	height: 10vh;
-	background-color: #333333;
-	display: flex;
-	align-items: center;
-	padding-left: 10vh;
+  height: 10vh;
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  padding-left: 10vh;
 }
 
 header ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 header li {
-	float: left;
-	margin-right: 10vh;
-	padding-left: 5vh;
+  float: left;
+  margin-right: 10vh;
+  padding-left: 5vh;
 }
 
 header li a {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
 }
 
-img {
-	display: block;
-	/* width: 100%; */
-	/* height: 80vh; */
-	max-width: 100%;
+main {
+  display: block;
+  background-image: url('city.jpg');
+  background-size: cover;
+  min-height: 80vh;
 }
-
 
 footer {
-	height: 11vh;
-	background-color: #333333;
-	display: flex;
-	align-items: center;
-	padding-left: 10vh;
+  height: 10vh;
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  padding-left: 10vh;
 }
 
 footer ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 footer li {
-	float: left;
-	margin-right: 10vh;
-	padding-left: 5vh;
-	color: white;
+  float: left;
+  margin-right: 10vh;
+  padding-left: 5vh;
+  color: white;
 }
+
